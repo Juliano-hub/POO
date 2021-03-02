@@ -1,0 +1,17 @@
+package vetor_testes;
+
+public class Exemplo_Matriz {
+public static void main(String[] args) {
+int matriz1[][] = new int[3][5];
+// matriz de 4 linhas e 3 colunas
+int matriz2[][] = {{1,2,3},{4,5,6},{7,8,9},{10,11,12}};
+// imprimindo matriz
+System.out.println("Tamanho: " + matriz2.length);
+for(int i=0; i<matriz2.length; i++){
+System.out.println("Tamanho: " + matriz2[i].length);
+for(int j=0; j<matriz2[i].length; j++){
+System.out.println(matriz2[i][j]);
+}
+}
+}
+}
